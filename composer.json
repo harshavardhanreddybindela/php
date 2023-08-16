@@ -1,0 +1,10 @@
+{
+    "name": "phpgrid/inventory-manger",
+    "description": "Inventory management system built on top of phpGrid, phpChart and OSS",
+    "require": {
+        "picqer/php-barcode-generator": "^0.2.2"
+    },
+    "autoload": {
+        "files": ["phpGrid/conf.php", "phpChart/conf.php"]
+    }
+}
